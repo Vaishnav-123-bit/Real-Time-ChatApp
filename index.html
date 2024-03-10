@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>WassApp</title>
+</head>
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <img height="50" width="70" src="/chatLogo.png" alt="" srcset="">
+            <h1>Wassap</h1>
+        </div>
+        <div class="message_area">
+            <div class="incoming message"></div>
+            <div class="outgoing message"></div>
+        </div>
+        <div>
+            <textarea name="textarea" placeholder="Write a message" id="textarea" cols="30" rows="1"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
